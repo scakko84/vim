@@ -4,3 +4,6 @@
 [submodule "bundle/brogrammer-theme"]
 	path = bundle/brogrammer-theme
 	url = git@github.com:marciomazza/vim-brogrammer-theme
+[submodule "bundle/vendetta-theme"]
+	path = bundle/vendetta-theme
+	url = git@github.com:evgenyzinoviev/vim-vendetta
