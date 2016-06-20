@@ -3,10 +3,6 @@
 execute pathogen#infect()
 
 "------------------------------------------------------------
-" Colorscheme
-colorscheme elflord
-
-"------------------------------------------------------------
 " Features
 "
 " These options and commands enable some very useful features in Vim, that
@@ -23,8 +19,14 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
- 
- 
+
+"------------------------------------------------------------
+" Theme and Coloring
+set background=dark
+if has('gui_running')
+    colorscheme wombat
+endif
+
 "------------------------------------------------------------
 " Must have options
 "
