@@ -31,8 +31,15 @@ syntax on
 "------------------------------------------------------------
 " Theme and Coloring
 set background=dark
+
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+let g:seoul256_background = 233
+colorscheme seoul256
+
 if has('gui_running')
-    colorscheme dracula
+    colorscheme seoul256
 endif
 
 "------------------------------------------------------------
