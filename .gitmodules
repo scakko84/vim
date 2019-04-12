@@ -7,3 +7,9 @@
 [submodule "bundle/dracula-theme"]
 	path = bundle/dracula-theme
 	url = git@github.com:dracula/vim.git
+[submodule "bundle/seoul256-theme"]
+	path = bundle/seoul256-theme
+	url = git@github.com:junegunn/seoul256.vim.git
+[submodule "bundle/rainglow-theme"]
+	path = bundle/rainglow-theme
+	url = git@github.com:rainglow/vim.git

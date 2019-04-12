@@ -39,7 +39,13 @@ let g:seoul256_background = 233
 colorscheme seoul256
 
 if has('gui_running')
-    colorscheme seoul256
+
+" seoul256 (light):
+"   Range:   252 (darkest) ~ 256 (lightest)
+"   Default: 253
+let g:seoul256_background = 256
+colorscheme seoul256-light
+
 endif
 
 "------------------------------------------------------------
@@ -136,6 +142,9 @@ set cmdheight=2
  
 " Display line numbers on the left
 set number
+
+" Display cursor line
+set cursorline
  
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
