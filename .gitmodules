@@ -4,12 +4,6 @@
 [submodule "bundle/vendetta-theme"]
 	path = bundle/vendetta-theme
 	url = git@github.com:evgenyzinoviev/vim-vendetta
-[submodule "bundle/railscasts-theme"]
-	path = bundle/railscasts-theme
-	url = git@github.com:justincampbell/vim-railscasts
-[submodule "bundle/wombat-theme"]
-	path = bundle/wombat-theme
-	url = git@github.com:wesQ3/wombat.vim
 [submodule "bundle/dracula-theme"]
 	path = bundle/dracula-theme
 	url = git@github.com:dracula/vim.git
