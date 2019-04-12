@@ -38,15 +38,15 @@ set background=dark
 let g:seoul256_background = 233
 colorscheme seoul256
 
-if has('gui_running')
-
-" seoul256 (light):
-"   Range:   252 (darkest) ~ 256 (lightest)
-"   Default: 253
-let g:seoul256_background = 256
-colorscheme seoul256-light
-
-endif
+"if has('gui_running')
+"
+"" seoul256 (light):
+""   Range:   252 (darkest) ~ 256 (lightest)
+""   Default: 253
+"let g:seoul256_background = 256
+"colorscheme seoul256-light
+"
+"endif
 
 "------------------------------------------------------------
 " Must have options
@@ -142,6 +142,7 @@ set cmdheight=2
  
 " Display line numbers on the left
 set number
+set numberwidth=7
 
 " Display cursor line
 set cursorline

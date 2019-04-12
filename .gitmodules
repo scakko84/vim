@@ -13,3 +13,6 @@
 [submodule "bundle/rainglow-theme"]
 	path = bundle/rainglow-theme
 	url = git@github.com:rainglow/vim.git
+[submodule "bundle/wombat256-theme"]
+	path = bundle/wombat256-theme
+	url = git@github.com:vim-scripts/wombat256.vim.git
