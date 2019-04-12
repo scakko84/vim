@@ -10,3 +10,6 @@
 [submodule "bundle/wombat-theme"]
 	path = bundle/wombat-theme
 	url = git@github.com:wesQ3/wombat.vim
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
