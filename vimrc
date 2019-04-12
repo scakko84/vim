@@ -1,4 +1,12 @@
 "------------------------------------------------------------
+" cd ~
+" git clone http://github.com/scakko84/vim.git ~/.vim
+" ln -s ~/.vim/vimrc ~/.vimrc
+" ln -s ~/.vim/gvimrc ~/.gvimrc
+" cd ~/.vim
+" git submodule init
+" git submodule update
+"------------------------------------------------------------
 " Pathogen
 execute pathogen#infect()
 
@@ -24,7 +32,7 @@ syntax on
 " Theme and Coloring
 set background=dark
 if has('gui_running')
-    colorscheme wombat
+    colorscheme dracula
 endif
 
 "------------------------------------------------------------
