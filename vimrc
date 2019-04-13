@@ -32,21 +32,11 @@ syntax on
 " Theme and Coloring
 set background=dark
 
-" seoul256 (dark):
-"   Range:   233 (darkest) ~ 239 (lightest)
-"   Default: 237
-let g:seoul256_background = 233
-colorscheme seoul256
+colorscheme wombat256mod
 
-"if has('gui_running')
-"
-"" seoul256 (light):
-""   Range:   252 (darkest) ~ 256 (lightest)
-""   Default: 253
-"let g:seoul256_background = 256
-"colorscheme seoul256-light
-"
-"endif
+if has('gui_running')
+    colorscheme wombat256mod
+endif
 
 "------------------------------------------------------------
 " Must have options
