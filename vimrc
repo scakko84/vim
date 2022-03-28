@@ -3,12 +3,6 @@
 " git clone http://github.com/scakko84/vim.git ~/.vim
 " ln -s ~/.vim/vimrc ~/.vimrc
 " ln -s ~/.vim/gvimrc ~/.gvimrc
-" cd ~/.vim
-" git submodule init
-" git submodule update
-"------------------------------------------------------------
-" Pathogen
-execute pathogen#infect()
 
 "------------------------------------------------------------
 " Features
@@ -30,62 +24,7 @@ syntax on
 
 "------------------------------------------------------------
 " Theme and Coloring
-set background=dark
-
-"""
-""" seoul256
-"""
-"
-""   Range:   233 (darkest) ~ 239 (lightest)
-""   Default: 237
-"let g:seoul256_background = 233
-"
-""   Range:   252 (darkest) ~ 256 (lightest)
-""   Default: 253
-""let g:seoul256_background = 256
-"
-"if has('gui_running')
-"
-"colorscheme seoul256
-""colorscheme seoul256-light
-"
-"else
-"
-"colorscheme seoul256
-""colorscheme seoul256-light
-"
-"endif
-"
-"""
-"""
-"""
-
-"""
-""" gruvbox
-"""
-
-"   Range:   soft, medium, hard
-"   Default: medium
-let g:gruvbox_contrast_dark = 'hard'
-
-"   Range:   soft, medium, hard
-"   Default: medium
-let g:gruvbox_contrast_light = 'hard'
-
-if has('gui_running')
-
-colorscheme gruvbox
-
-else
-
-let g:gruvbox_termcolors = '256'
-colorscheme gruvbox
-
-endif
-
-"""
-"""
-"""
+colorscheme koehler
 
 "------------------------------------------------------------
 " Must have options
