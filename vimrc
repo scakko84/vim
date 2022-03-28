@@ -18,13 +18,15 @@ set nocompatible
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
 filetype indent plugin on
- 
-" Enable syntax highlighting
-syntax on
 
 "------------------------------------------------------------
 " Theme and Coloring
+set background=dark
+set termguicolors
 colorscheme koehler
+ 
+" Enable syntax highlighting
+syntax on
 
 "------------------------------------------------------------
 " Must have options
