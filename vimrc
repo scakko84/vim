@@ -126,6 +126,7 @@ set numberwidth=7
 
 " Display cursor line
 set cursorline
+highlight Cursorline guibg=NONE
  
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
