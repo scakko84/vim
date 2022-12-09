@@ -2,7 +2,7 @@
 " cd ~
 " git clone http://github.com/scakko84/vim.git ~/.vim
 " ln -s ~/.vim/vimrc ~/.vimrc
-" ln -s ~/.vim/gvimrc ~/.gvimrc
+" ln -s ~/.vim/vimrc ~/.gvimrc
 
 "------------------------------------------------------------
 " Features
@@ -142,6 +142,8 @@ set pastetoggle=<F11>
  
 " Indentation settings for using 4 spaces instead of tabs.
 " Do not change 'tabstop' from its default value of 8 with this setup.
+filetype plugin indent on
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
